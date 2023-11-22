@@ -4,34 +4,28 @@
     background: url('../img/main_bg1.jpg') no-repeat 50%/cover;
     padding-top: 205px;
     &__title {
-        color: white;
-        width: 545px;
+        width: 535px;
         margin-top: 10px;
     }
     &__subtitle {
-        color: white;
         position: relative;
         padding-left: 10px;
-        @include before_circle;
         z-index: 2;
-        
+        @include before_circle;
     }
     &__btns {
         margin-top: 25px;
         display: flex;
-        width: 250px;
         align-items: center;
         justify-content: space-between;
+        width: 250px;
     }
     &__link {
-        color: white;
+        color: #000;
         font-weight: bold;
         &:hover {
             color: #000;
             text-decoration: none;
-            
         }
     }
-
-
 }
