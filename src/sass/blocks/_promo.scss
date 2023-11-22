@@ -4,10 +4,12 @@
     background: url('../img/main_bg1.jpg') no-repeat 50%/cover;
     padding-top: 205px;
     &__title {
+        color: white;
         width: 545px;
         margin-top: 10px;
     }
     &__subtitle {
+        color: white;
         position: relative;
         padding-left: 10px;
         @include before_circle;
@@ -22,7 +24,7 @@
         justify-content: space-between;
     }
     &__link {
-        color: #000;
+        color: white;
         font-weight: bold;
         &:hover {
             color: #000;
